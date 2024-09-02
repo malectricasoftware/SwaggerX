@@ -9,13 +9,13 @@ Usage:
 
 # Basic Scan: To run a basic scan against a list of domains:
 ```
-cat domains.txt | nuclei -t swagger-ui-config-url-injection.yaml
+cat domains.txt | nuclei -t swagger.yaml
 ```
 
 # Single URL Scan: To scan a single URL:
 
 ```
-echo "https://example.com" | nuclei -t swagger-ui-config-url-injection.yaml
+echo "https://example.com" | nuclei -t swagger.yaml
 ```
 
 # Template Structure:
